@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class example6 {
 
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            Scanner in = new Scanner(System.in);
 
             System.out.print("Введите фамилию: ");
-            String f = scanner.nextLine();
+            String f = in.nextLine();
 
             System.out.print("Введите имя: ");
-            String i = scanner.nextLine();
+            String i = in.nextLine();
 
             System.out.print("Введите отчество: ");
-            String o = scanner.nextLine();
+            String o = in.nextLine();
 
             System.out.println("Hello " + f + " " + i + " " + o);
 
-            scanner.close();
+            in.close();
         }
     }
 
